@@ -1,0 +1,513 @@
+@charset "utf-8"
+
+body{
+	font-family: 'Oswald', san-serif; 
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.Container {
+	width: 90%;
+	min-width: 500px;
+	margin: auto; 
+
+}
+
+#head {
+	width: 100%;
+	height: 450px;
+}
+
+#head img{
+	float: left;
+}
+
+#nav {
+	background-color: #1e1e1c;
+	width: 100%;
+	height: 61px;
+	line-height: 60px;
+}
+
+#wh {
+	float: left;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+#nav h1 {
+	float: left;
+}
+
+#nav h1 a {
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	font-family: Adreena Script Demo;
+}
+
+#nav img{
+	width: 69px;
+	height: 58px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 3px;
+	margin-bottom: 4px;
+}
+
+#nav ul {
+	float: center;
+}
+
+#nav ul li {
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+	font-size: 30px;
+	font-family: KG Defying Gravity;
+}
+
+#nav ul li :hover {
+	background: #bdadc2;
+	transition: all ease-in-out 0.40s;
+}
+
+.aboutus {
+	background: url(images/back1.jpg) no-repeat;
+	width: 100%;
+	height: 400px;
+}
+
+#about {
+	float: right;
+	margin-top: 16px;
+	margin-right: 125px;
+    display: inline-block;
+    font-family: KG Defying Gravity;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: left;
+    color: #1e1e1c;
+    padding: 15px 40px;
+   }
+
+#content {
+	float: right; 
+}
+
+#content img {
+	width: 650px;
+	height: 300px;
+}
+
+#wh {
+	float: left;
+	margin-left: 25px;
+	margin-top: 25px;
+	font-family: KG Defying Gravity;
+	font-size: 45px;
+}
+.cells {
+	width: 100%;
+	height: 800px;
+	background: url(images/backk2.jpg);
+}
+
+#bts {
+	margin-left: 25px;
+	font-family: "Mother's touches";
+	font-size: 19px;
+	text-align: justify;
+}
+
+.cell1 {
+	float: left;
+}
+
+.cell1 img {
+	margin-left: 35px;
+	padding-top: 35px;
+	padding-left: 15px;
+}
+
+#first {
+	float: left;
+	margin-left: 25px;
+	font-family: "Mother's touches";
+	font-size: 24px;
+}
+
+#name {
+	float: left;
+	margin-left: 25px;
+	font-family: KG Defying Gravity;
+	font-size: 40px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+
+.cell2 {
+	float: left;
+	margin-left: 90px;
+
+}
+
+.cell2 img {
+	margin-left: 65px;
+	padding-top: 44px;
+	padding-left: 15px;
+	margin-bottom: 9px;
+}
+
+#second {
+	font-family: "Mother's touches";
+	font-size: 24px; 
+	margin-right: 25px;
+}
+
+#jname {
+	float: left;
+	margin-right: 25px;
+	margin-left: 45px;
+	font-family: KG Defying Gravity;
+	font-size: 45px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+
+.cell3 {
+	float: right;
+	margin-right: 15px;
+}
+
+.cell3 img {
+	margin-left: 35px;
+	padding-top: 44px;
+	padding-left: 15px;
+	margin-bottom: 11px;
+}
+
+#third {
+	float: left;
+	margin-right: 55px;
+	margin-left: 25px;
+	font-family: "Mother's touches";
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+#mname {
+	float: left;
+	margin-left: 25px;
+	font-family: KG Defying Gravity;
+	font-size: 43px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+
+.cells2 {
+	width: 100%;
+	height: 1200px;
+	background: url(images/back2.jpg);
+}
+
+.cell1 {
+	float: left;
+}
+
+.cell1 img {
+	margin-left: 35px;
+	padding-top: 45px;
+	padding-left: 15px;
+}
+
+#first {
+	float: left;
+	margin-left: 25px;
+	font-family: "Mother's touches";
+	font-size: 24px;
+}
+
+#hname {
+	float: left;
+	margin-left: 25px;
+	font-family: KG Defying Gravity;
+	font-size: 44px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+
+.cell2 {
+	float: left;
+
+}
+
+.cell2 img {
+	margin-left: 65px;
+	padding-top: 44px;
+	padding-left: 15px;
+	margin-bottom: 9px;
+}
+
+#second {
+	font-family: "Mother's touches";
+	font-size: 24px; 
+	margin-right: 25px;
+	
+}
+
+#jmname {
+	float: left;
+	margin-right: 25px;
+	margin-left: 3px;
+	font-family: KG Defying Gravity;
+	font-size: 50px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+
+.cell3 {
+	float: right;
+	margin-right: 15px;
+}
+
+.cell3 img {
+	margin-left: 35px;
+	padding-top: 44px;
+	padding-left: 15px;
+	margin-bottom: 11px;
+}
+
+#third {
+	float: left;
+	margin-right: 55px;
+	margin-left: 25px;
+	font-family: "Mother's touches";
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+#Vname {
+	float: left;
+	margin-left: 25px;
+	font-family: KG Defying Gravity;
+	font-size: 43px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+
+.cell4 {
+	float: left;
+}
+
+.cell4 img {
+	margin-left: 35px;
+	padding-top: 35px;
+	padding-left: 15px;
+}
+
+#fourth {
+	float: left;
+	margin-left: 25px;
+	font-family: "Mother's touches";
+	font-size: 24px;
+}
+
+#jkname {
+	float: left;
+	margin-left: 25px;
+	font-family: KG Defying Gravity;
+	font-size: 40px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+
+#cells3 {
+	float: left;
+	width: 100%;
+	background: url(images/back3.jpg);
+	height: 910px;
+
+}
+
+#cells3 h1 a {
+	float: left;
+	margin-left: 25px;
+	margin-top: 25px;
+	font-family: KG Defying Gravity;
+	font-size: 45px;
+}
+
+#fname1{
+	float: left;
+	margin-left: 25px;
+	font-family: KG Defying Gravity;
+	font-size: 20px;
+	color: white;
+}
+
+#facts1 {
+	float: left;
+	margin-left: 25px;
+	font-family: "Mother's touches";
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+
+
+#fname3{
+	float: left;
+	margin-left: 5px;
+	font-family: KG Defying Gravity;
+	font-size: 21px;
+	margin-left: 25px;
+	color: white;
+}
+
+#facts3 {
+	margin-left: 25px;
+	float: left;
+	font-family: "Mother's touches";
+	font-size: 15px;
+	margin-bottom: 25px;
+
+}
+
+#fname5{
+	float: left;
+	margin-left: 25px;
+	font-family: KG Defying Gravity;
+	font-size: 20px;
+	margin-left: 25px;
+	color: white;
+}
+
+#facts5 {
+	margin-left: 25px;
+	float: left;
+	font-family: "Mother's touches";
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+
+#fname6{
+	float: left;
+	margin-left: 25px;
+	font-family: KG Defying Gravity;
+	font-size: 20px;
+	margin-left: 25px;
+	color: white;
+}
+
+#facts6 {
+	margin-left: 25px;
+	float: left;
+	font-family: "Mother's touches";
+	font-size: 15px;
+}
+
+#cell2 {
+	float: left;
+}
+
+#fname2 {
+	float: left;
+	font-family: KG Defying Gravity;
+	font-size: 20px;
+	color: white;
+}
+
+#facts2 {
+	float: left;
+	font-family: "Mother's touches";
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+
+#fname4{
+	float: left;
+	font-family: KG Defying Gravity;
+	font-size: 20px;
+	color: white;
+}
+
+#facts4 {
+	float: left;
+	font-family: "Mother's touches";
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+
+#fname7{
+	float: left;
+	font-family: KG Defying Gravity;
+	font-size: 20px;
+	color: white;
+}
+
+#facts7 {
+	float: left;
+	font-family: "Mother's touches";
+	font-size: 15px;
+}
+
+#photo {
+	background-color: #bdadc2;
+}
+
+#pic {
+	width: 560px;
+	height: 300px;
+}
+
+#pic1 {
+	width: 560px;
+	height: 300px;
+}
+
+#pic2 {
+	width: 220px;
+	height: 300px;
+}
+
+#pic3 {
+	width: 220px;
+	height: 300px;
+}
+
+#pic4 {
+	width: 560px;
+	height: 300px;
+}
+
+#pic5 {
+	width: 560px;
+	height: 300px;
+}
+
+#footer {
+	width: 100%
+	height: 600px;
+	background-color: #bdadc2;
+}
+#footer img {
+	width: 300px;
+	height: 50px;
+}
+
+#footer p {
+	float: right;
+	margin-right: 25px;
+	padding-top: 17px;
+	padding-bottom: 20px;
+	font-family: impact;
+	font-size: 20px;
+}
